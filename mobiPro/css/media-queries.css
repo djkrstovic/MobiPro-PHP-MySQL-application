@@ -1,0 +1,116 @@
+@media screen and (max-width:480px){
+	
+	#okvir {
+		width:480px;
+		clear:both;
+		height: 2200px;
+	}
+	#okvir6{
+		width:480px;
+		clear:both;
+		height: 2200px;
+	}
+	
+	#okvir7{
+		width:480px;
+		clear:both;
+	}
+	
+	#okvir5a{
+		width:480px;
+		clear:both;
+	}
+	
+	#okvir5{
+		width:480px;
+		clear:both;
+		height: 2100px;
+	}
+	
+	#okvir2{
+		width:480px;
+		clear:both;
+		height: 2800px;
+	}
+	
+	#heder {
+		width:480px;
+		clear:both;
+	}
+	
+	
+	#sredina {
+		width: 460px;
+		clear:both;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#grupa1 {
+		width: 480px;
+	}
+
+	#grupa3 {
+		width: 480px;
+		padding-left: 10px;
+		padding-right: 10px;
+		
+	}
+	
+	#tekst {
+		width: 460px;
+		
+	}
+	
+	#grupa3p{
+		width: 460px;
+		
+	}
+	
+	.blok {
+		width: 460px;
+	}
+	
+	.blok1 {
+		width: 460px;
+		height: 300px;
+	}
+	
+	.blok3 {
+		width: 460px;
+	}
+	
+	.blokC {
+		width: 460px;
+		height: 800px;
+	}
+	
+	#grupa2 {
+		width: 480px;
+	}
+	
+	#heder
+	{
+		flex-direction: column;	/* header(lista) ce se prikazati u vidu 1 kolone (elementi unutar njega ce biti jedan ispod drugog)*/
+		width:100%;
+		padding:0;
+	}
+	
+	#heder ul
+	{
+		flex-flow: column wrap; /* meni ce se prikazati u vidu 1 kolone (li tagovi jedan ispod drugog)*/
+	}
+	#heder ul li
+	{
+		width:100%;
+	}
+	#heder ul li a {
+		padding:10px;
+		background-image:url('../images/blue_pattern_menu.jpg');
+		background-repeat:repeat-x repeat-y;
+		border-top: 1px solid rgba(255,255,255,0.3); /* new rgba() */
+		border-bottom: 1px solid rgba(0,0,0,0.1); 
+	}
+	
+	
+	
+}
